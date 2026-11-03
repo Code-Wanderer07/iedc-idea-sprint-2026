@@ -438,6 +438,43 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+.brand-official-logo {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.brand-divider {
+  width: 2px;
+  height: 26px;
+  background-color: var(--ink);
+  opacity: 0.2;
+}
+
+.brand-event-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand-event-name {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+}
+
+.brand-event-tag {
+  font-family: var(--font-utility);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--royal-blue);
+}
+
 .brand-logo-img {
   height: 44px;
   width: auto;
@@ -638,6 +675,32 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 1.25rem;
+}
+
+.hero-host-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--surface);
+  border: var(--border-thick);
+  border-radius: var(--radius-sm);
+  padding: 0.25rem 0.65rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.hero-host-logo {
+  height: 24px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.hero-host-text {
+  font-family: var(--font-utility);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--ink);
 }
 
 .hero-headline {
@@ -1873,6 +1936,19 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
 }
 
+.pass-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.pass-logo-img {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
 .pass-logo-badge {
   font-family: var(--font-utility);
   font-size: 0.8rem;
@@ -2115,9 +2191,22 @@ h1, h2, h3, h4, h5, h6 {
 .footer-logo {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.85rem;
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.footer-official-logo {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.footer-logo-divider {
+  color: #52525B;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 .footer-logo-badge {

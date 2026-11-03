@@ -346,8 +346,8 @@ export class RegistrationForm {
       <div class="hacker-pass" id="printable-hacker-pass">
         <div class="pass-header">
           <div class="pass-brand">
-            <span class="pass-logo-badge">⚡ IEDC CEC</span>
-            <span class="pass-title">IDEA SPRINT 2026 // PASS</span>
+            <img src="./assets/iedc-logo-light.png" alt="IEDC Bootcamp CEC" class="pass-logo-img">
+            <span class="pass-title">IDEA SPRINT '26 // PASS</span>
           </div>
           <span class="pass-status-pill">OFFICIAL ADMISSION</span>
         </div>
