@@ -579,6 +579,13 @@
 
               <div class="form-grid">
                 
+                <!-- Section 01: Lead Hacker Information -->
+                <div class="form-section-divider">
+                  <span class="form-section-title">
+                    <span class="form-section-badge">01</span> Hacker Contact Details
+                  </span>
+                </div>
+
                 <!-- Full Name -->
                 <div class="form-group form-group--full">
                   <label for="form-fullName" class="form-label">
@@ -604,6 +611,13 @@
                   </div>
                 </div>
 
+                <!-- Section 02: Academic Information (Separate Year & Department) -->
+                <div class="form-section-divider">
+                  <span class="form-section-title">
+                    <span class="form-section-badge">02</span> Academic Background
+                  </span>
+                </div>
+
                 <!-- College / Institution -->
                 <div class="form-group form-group--full">
                   <label for="form-college" class="form-label">College / Institution Name <span class="req-marker">*</span></label>
@@ -611,23 +625,51 @@
                   <div class="form-error is-hidden" id="error-college"></div>
                 </div>
 
-                <!-- Year / Department & Team Size (2 Cols) -->
+                <!-- Separate Academic Year & Department (2 Cols) -->
                 <div class="form-grid form-grid--two-col form-group--full">
+                  <!-- Year -->
                   <div class="form-group">
-                    <label for="form-yearDept" class="form-label">Year &amp; Department <span class="req-marker">*</span></label>
-                    <select id="form-yearDept" name="yearDept" class="form-select" required aria-describedby="error-yearDept">
-                      <option value="">Select your batch...</option>
-                      <option value="1st Year - CS/IT/AI">1st Year - Computer Science / IT / AI</option>
-                      <option value="2nd Year - CS/IT/AI">2nd Year - Computer Science / IT / AI</option>
-                      <option value="3rd Year - CS/IT/AI">3rd Year - Computer Science / IT / AI</option>
-                      <option value="4th Year - CS/IT/AI">4th Year - Computer Science / IT / AI</option>
-                      <option value="EC/EEE/Mech/Civil">EC / EEE / Mechanical / Civil</option>
-                      <option value="Postgraduate/MCA">Postgraduate / MCA / M.Tech</option>
-                      <option value="Other Institution">Other Degree / Diploma</option>
+                    <label for="form-year" class="form-label">Academic Year <span class="req-marker">*</span></label>
+                    <select id="form-year" name="year" class="form-select" required aria-describedby="error-year">
+                      <option value="">Select Academic Year...</option>
+                      <option value="1st Year">1st Year (Freshman)</option>
+                      <option value="2nd Year">2nd Year (Sophomore)</option>
+                      <option value="3rd Year">3rd Year (Pre-final)</option>
+                      <option value="4th Year">4th Year (Final Year)</option>
+                      <option value="Postgraduate / MCA">Postgraduate / MCA / M.Tech</option>
+                      <option value="Other">Other Program</option>
                     </select>
-                    <div class="form-error is-hidden" id="error-yearDept"></div>
+                    <div class="form-error is-hidden" id="error-year"></div>
                   </div>
 
+                  <!-- Department -->
+                  <div class="form-group">
+                    <label for="form-department" class="form-label">Department / Branch <span class="req-marker">*</span></label>
+                    <select id="form-department" name="department" class="form-select" required aria-describedby="error-department">
+                      <option value="">Select Department...</option>
+                      <option value="Computer Science & Engineering">Computer Science &amp; Engineering (CSE)</option>
+                      <option value="Artificial Intelligence & Data Science">AI &amp; Data Science (AI &amp; DS)</option>
+                      <option value="Electronics & Communication">Electronics &amp; Communication (ECE)</option>
+                      <option value="Electrical & Electronics">Electrical &amp; Electronics (EEE)</option>
+                      <option value="Mechanical Engineering">Mechanical Engineering (ME)</option>
+                      <option value="Civil Engineering">Civil Engineering (CE)</option>
+                      <option value="Information Technology">Information Technology (IT)</option>
+                      <option value="Computer Applications (MCA)">Computer Applications (MCA)</option>
+                      <option value="Other Department">Other Department / Multidisciplinary</option>
+                    </select>
+                    <div class="form-error is-hidden" id="error-department"></div>
+                  </div>
+                </div>
+
+                <!-- Section 03: Team & Track Selection -->
+                <div class="form-section-divider">
+                  <span class="form-section-title">
+                    <span class="form-section-badge">03</span> Squad &amp; Project Track
+                  </span>
+                </div>
+
+                <!-- Team Size & Team Name (2 Cols) -->
+                <div class="form-grid form-grid--two-col form-group--full">
                   <div class="form-group">
                     <label for="form-teamSize" class="form-label">Team Size <span class="req-marker">*</span></label>
                     <select id="form-teamSize" name="teamSize" class="form-select" required aria-describedby="error-teamSize">
@@ -638,27 +680,25 @@
                     </select>
                     <div class="form-error is-hidden" id="error-teamSize"></div>
                   </div>
-                </div>
 
-                <!-- Team Name (Optional) & Track Preference (2 Cols) -->
-                <div class="form-grid form-grid--two-col form-group--full">
                   <div class="form-group">
                     <label for="form-teamName" class="form-label">Team Name <span class="font-mono text-xs">(Optional)</span></label>
                     <input type="text" id="form-teamName" name="teamName" class="form-input" placeholder="e.g. ByteCraft Studio" aria-describedby="error-teamName">
                     <div class="form-error is-hidden" id="error-teamName"></div>
                   </div>
+                </div>
 
-                  <div class="form-group">
-                    <label for="form-track" class="form-label">Track Preference <span class="req-marker">*</span></label>
-                    <select id="form-track" name="track" class="form-select" required aria-describedby="error-track">
-                      <option value="">Select a sprint track...</option>
-                      <option value="ai-smart-systems">AI &amp; Smart Systems</option>
-                      <option value="climate-sustainability">Sustainability &amp; CleanTech</option>
-                      <option value="campus-civic">Campus Life &amp; Civic Tech</option>
-                      <option value="open-innovation">Open Innovation &amp; FinTech</option>
-                    </select>
-                    <div class="form-error is-hidden" id="error-track"></div>
-                  </div>
+                <!-- Track Preference -->
+                <div class="form-group form-group--full">
+                  <label for="form-track" class="form-label">Track Preference <span class="req-marker">*</span></label>
+                  <select id="form-track" name="track" class="form-select" required aria-describedby="error-track">
+                    <option value="">Select a sprint track...</option>
+                    <option value="ai-smart-systems">AI &amp; Smart Systems</option>
+                    <option value="climate-sustainability">Sustainability &amp; CleanTech</option>
+                    <option value="campus-civic">Campus Life &amp; Civic Tech</option>
+                    <option value="open-innovation">Open Innovation &amp; FinTech</option>
+                  </select>
+                  <div class="form-error is-hidden" id="error-track"></div>
                 </div>
 
                 <!-- Idea / Project Concept (Optional with Live Counter) -->

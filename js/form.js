@@ -53,9 +53,15 @@ export class RegistrationForm {
           return null;
         }
       },
-      yearDept: {
+      year: {
         validate: (val) => {
-          if (!val || val === "") return "Please select your academic year and department.";
+          if (!val || val === "") return "Please select your academic year.";
+          return null;
+        }
+      },
+      department: {
+        validate: (val) => {
+          if (!val || val === "") return "Please select your department / branch.";
           return null;
         }
       },
@@ -251,7 +257,8 @@ export class RegistrationForm {
       email: formData.get('email').trim(),
       phone: formData.get('phone').trim(),
       college: formData.get('college').trim(),
-      yearDept: formData.get('yearDept'),
+      year: formData.get('year'),
+      department: formData.get('department'),
       teamName: formData.get('teamName')?.trim() || 'Solo Challenger',
       teamSize: formData.get('teamSize') || '1',
       track: formData.get('track'),
@@ -361,6 +368,17 @@ export class RegistrationForm {
             <div class="pass-field">
               <span class="pass-label">COLLEGE / CAMPUS</span>
               <span class="pass-value">${this.escapeHTML(data.college)}</span>
+            </div>
+          </div>
+
+          <div class="pass-field-group">
+            <div class="pass-field">
+              <span class="pass-label">ACADEMIC YEAR</span>
+              <span class="pass-value">${this.escapeHTML(data.year || 'Student')}</span>
+            </div>
+            <div class="pass-field">
+              <span class="pass-label">DEPARTMENT / BRANCH</span>
+              <span class="pass-value">${this.escapeHTML(data.department || 'Engineering')}</span>
             </div>
           </div>
 
