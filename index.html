@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>IEDC Idea Sprint 2026 | 24-Hour Student Ideathon · IEDC Bootcamp CEC</title>
+  <meta name="description" content="IEDC Idea Sprint 2026 is a 24-hour student ideathon hosted by IEDC Bootcamp CEC at College of Engineering Chengannur. Nov 21-22, 2026. ₹50,000+ Prize Pool. Register your team now!">
+  <meta name="author" content="IEDC Bootcamp CEC">
+  <meta name="theme-color" content="#18181B">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://iedc-cec.github.io/iedc-idea-sprint-2026/">
+  <meta property="og:title" content="IEDC Idea Sprint 2026 | 24-Hour Student Ideathon">
+  <meta property="og:description" content="24 hours. One idea. Solve real problems with mentors, compete for ₹50,000+ prizes, and bring prototypes to life at CEC.">
+  <meta property="og:image" content="./assets/og-image.svg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://iedc-cec.github.io/iedc-idea-sprint-2026/">
+  <meta property="twitter:title" content="IEDC Idea Sprint 2026 | 24-Hour Student Ideathon">
+  <meta property="twitter:description" content="24 hours. One idea. Solve real problems with mentors, compete for ₹50,000+ prizes, and bring prototypes to life at CEC.">
+  <meta property="twitter:image" content="./assets/og-image.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+
+  <!-- Google Fonts: Syne, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <!-- Keyboard Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ======================================================================
+       HEADER & NAVIGATION
+       ====================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <!-- Brand Logo -->
+        <a href="#hero" class="brand-link" aria-label="IEDC Idea Sprint 2026 Home">
+          <img src="./assets/logo.svg" alt="IEDC Idea Sprint 2026" class="brand-logo-img">
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#tracks" class="nav-link">Tracks</a>
+          <a href="#schedule" class="nav-link">Schedule</a>
+          <a href="#spinner" class="nav-link">Idea Spinner</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+        </nav>
+
+        <!-- CTA & Mobile Toggle -->
+        <div class="header-cta-group">
+          <a href="#register" class="btn btn--primary btn--sm" id="header-register-btn">Register Team</a>
+          <button type="button" class="nav-toggle-btn" id="nav-toggle-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu-drawer">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Backdrop & Menu -->
+  <div class="mobile-nav-backdrop" id="nav-backdrop"></div>
+  <aside class="mobile-nav-drawer" id="nav-menu-drawer" aria-label="Mobile navigation">
+    <div class="drawer-header">
+      <span class="drawer-brand">IDEA SPRINT '26</span>
+      <span class="status-pill status-pill--open">LIVE NOV 21</span>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#about" class="drawer-link nav-link">01. About Ideathon</a>
+      <a href="#tracks" class="drawer-link nav-link">02. Problem Tracks</a>
+      <a href="#schedule" class="drawer-link nav-link">03. 24H Timetable</a>
+      <a href="#spinner" class="drawer-link nav-link">04. Idea Spinner ⚡</a>
+      <a href="#register" class="drawer-link nav-link">05. Registration Form</a>
+      <a href="#faq" class="drawer-link nav-link">06. FAQ & Guidelines</a>
+    </nav>
+    <div class="drawer-footer">
+      <a href="#register" class="btn btn--coral btn--full">Register Your Team</a>
+    </div>
+  </aside>
+
+  <!-- ======================================================================
+       MAIN CONTENT
+       ====================================================================== -->
+  <main id="main-content">
+    
+    <!-- --------------------------------------------------------------------
+         1. HERO SECTION & LIVE COUNTDOWN
+         -------------------------------------------------------------------- -->
+    <section class="hero-section" id="hero" aria-label="Sprint Overview and Countdown">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Left Column: Headline & Calls to Action -->
+          <div class="hero-content">
+            <div class="hero-kicker-row">
+              <span class="status-pill status-pill--open" id="countdown-badge">
+                <span class="status-dot"></span> REGISTRATIONS OPEN
+              </span>
+              <span class="sticker sticker--rotate-right" style="background-color: var(--sunny-yellow);">
+                NOV 21-22, 2026
+              </span>
+            </div>
+
+            <h1 class="hero-headline">
+              IEDC IDEA <br>
+              <span class="highlight-blue">SPRINT</span> <span class="highlight-coral">2026</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              24-hour student ideathon hosted by <strong>IEDC Bootcamp CEC</strong> at College of Engineering Chengannur. 
+              One problem. One team. 24 hours of non-stop adrenaline to validate, design, and prototype the future.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#register" class="btn btn--coral btn--lg">
+                <span>Register Your Team</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#schedule" class="btn btn--outline btn--lg">
+                <span>Explore Schedule</span>
+              </a>
+            </div>
+
+            <!-- Dev / Demo State Switcher (Easily test Countdown, Live Sprint, and Ended modes) -->
+            <div class="dev-state-switcher" role="group" aria-label="Countdown Demo State Switcher">
+              <span class="dev-state-label">DEMO TIMER:</span>
+              <button type="button" class="dev-btn is-active" data-timer-state="before" title="Test countdown prior to event start">Countdown</button>
+              <button type="button" class="dev-btn" data-timer-state="live" title="Test active 24-hour sprint clock">Live Sprint</button>
+              <button type="button" class="dev-btn" data-timer-state="ended" title="Test concluded state">Ended</button>
+            </div>
+          </div>
+
+          <!-- Hero Right Column: Kinetic Sprint Clock -->
+          <div class="hero-countdown-wrap">
+            <div class="countdown-box" id="countdown-container">
+              <div class="countdown-header">
+                <span class="countdown-title" id="countdown-title">SPRINT COUNTDOWN</span>
+                <span class="sticker" style="background-color: var(--lavender);">IST (UTC+5:30)</span>
+              </div>
+
+              <!-- Live alert notice (visible in live/ended mode) -->
+              <div class="countdown-live-banner is-hidden" id="countdown-live-banner" role="alert"></div>
+
+              <!-- Monospace Ticking Digits -->
+              <div class="countdown-digits-grid" aria-live="off">
+                <div class="countdown-card" id="card-days">
+                  <span class="countdown-num" id="count-days">18</span>
+                  <span class="countdown-lbl">Days</span>
+                </div>
+                <div class="countdown-card" id="card-hours">
+                  <span class="countdown-num" id="count-hours">12</span>
+                  <span class="countdown-lbl">Hours</span>
+                </div>
+                <div class="countdown-card" id="card-minutes">
+                  <span class="countdown-num" id="count-minutes">45</span>
+                  <span class="countdown-lbl">Minutes</span>
+                </div>
+                <div class="countdown-card" id="card-seconds">
+                  <span class="countdown-num" id="count-seconds">20</span>
+                  <span class="countdown-lbl">Seconds</span>
+                </div>
+              </div>
+
+              <!-- Hidden polite announcement for screen readers -->
+              <div class="sr-only" id="countdown-sr-status" aria-live="polite">
+                Counting down to IEDC Idea Sprint 2026 launch on November 21.
+              </div>
+
+              <!-- Progress Rail -->
+              <div class="countdown-progress-container">
+                <div class="countdown-progress-meta">
+                  <span>SPRINT CLOCK TIMELINE</span>
+                  <span>24 HOURS ACTIVE</span>
+                </div>
+                <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="countdown-progress-bar">
+                  <div class="progress-bar-fill"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------------
+         BROADSHEET TICKER TAPE
+         -------------------------------------------------------------------- -->
+    <div class="ticker-tape" aria-hidden="true">
+      <div class="ticker-track">
+        <span class="ticker-item">⚡ 24 HOURS NON-STOP <span class="ticker-separator">•</span></span>
+        <span class="ticker-item">🏆 ₹50,000+ CASH PRIZE POOL <span class="ticker-separator">•</span></span>
+        <span class="ticker-item">💡 4 PROBLEM TRACKS <span class="ticker-separator">•</span></span>
+        <span class="ticker-item">🍕 UNLIMITED COFFEE & MEALS INCLUDED <span class="ticker-separator">•</span></span>
+        <span class="ticker-item">🤝 15+ INDUSTRY MENTORS <span class="ticker-separator">•</span></span>
+        <span class="ticker-item">📍 COLLEGE OF ENGINEERING CHENGANNUR <span class="ticker-separator">•</span></span>
+        <!-- Duplicated loop for smooth infinite scroll -->
+        <span class="ticker-item">⚡ 24 HOURS NON-STOP <span class="ticker-separator">•</span></span>
+        <span class="ticker-item">🏆 ₹50,000+ CASH PRIZE POOL <span class="ticker-separator">•</span></span>
+        <span class="ticker-item">💡 4 PROBLEM TRACKS <span class="ticker-separator">•</span></span>
+        <span class="ticker-item">🍕 UNLIMITED COFFEE & MEALS INCLUDED <span class="ticker-separator">•</span></span>
+        <span class="ticker-item">🤝 15+ INDUSTRY MENTORS <span class="ticker-separator">•</span></span>
+        <span class="ticker-item">📍 COLLEGE OF ENGINEERING CHENGANNUR <span class="ticker-separator">•</span></span>
+      </div>
+    </div>
+
+    <!-- --------------------------------------------------------------------
+         2. ABOUT & HIGHLIGHTS STRIP
+         -------------------------------------------------------------------- -->
+    <section class="highlights-section" id="about" aria-label="Ideathon Highlights">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-kicker">WHAT AWAITS YOU</span>
+          <h2 class="section-title">Built for Builders, Thinkers & Doers</h2>
+          <p class="section-subtitle mx-auto">
+            Idea Sprint 2026 brings together the brightest student innovators from across Kerala for 24 intense hours of ideation, rapid design, and product pitch development.
+          </p>
+        </div>
+
+        <div class="highlights-grid">
+          <!-- Card 1 -->
+          <article class="highlight-card highlight-card--coral">
+            <span class="highlight-card__icon" aria-hidden="true">⏱️</span>
+            <div class="highlight-card__stat">24 Hours</div>
+            <h3 class="highlight-card__title">Uninterrupted Hack</h3>
+            <p class="highlight-card__desc">A high-velocity sprint environment with dedicated desks, high-speed fiber Wi-Fi, and 24/7 power backup.</p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="highlight-card highlight-card--blue">
+            <span class="highlight-card__icon" aria-hidden="true">🎯</span>
+            <div class="highlight-card__stat">4 Tracks</div>
+            <h3 class="highlight-card__title">Real-World Challenges</h3>
+            <p class="highlight-card__desc">Tackle pressing pain points in AI, CleanTech, Campus Life, or venture into open-ended disruptive innovation.</p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="highlight-card highlight-card--yellow">
+            <span class="highlight-card__icon" aria-hidden="true">🧠</span>
+            <div class="highlight-card__stat">15+ Mentors</div>
+            <h3 class="highlight-card__title">1:1 Expert Guidance</h3>
+            <p class="highlight-card__desc">Continuous architectural reviews, pitch deck sharpening, and business model sanity checks with seasoned tech leaders.</p>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="highlight-card highlight-card--mint">
+            <span class="highlight-card__icon" aria-hidden="true">🏆</span>
+            <div class="highlight-card__stat">₹50,000+</div>
+            <h3 class="highlight-card__title">Bounties & Incubation</h3>
+            <p class="highlight-card__desc">Cash rewards for track champions, direct pre-incubation grants, and fast-track entry to IEDC Startup accelerators.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------------
+         3. PROBLEM TRACKS
+         -------------------------------------------------------------------- -->
+    <section class="tracks-section" id="tracks" aria-label="Competition Tracks">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-kicker">CHOOSE YOUR ARENA</span>
+          <h2 class="section-title">Thematic Problem Tracks</h2>
+          <p class="section-subtitle mx-auto">
+            Choose a challenge domain that sparks your passion. Build software, hardware, or hybrid prototypes that solve tangible local and global hurdles.
+          </p>
+        </div>
+
+        <div class="tracks-grid">
+          <!-- Track 1 -->
+          <article class="track-card">
+            <div class="track-card__header">
+              <span class="track-card__badge" style="background-color: var(--royal-blue); color: #fff;">TRACK 01 // AI</span>
+              <span class="sticker sticker--rotate-right" style="background-color: var(--sunny-yellow);">FEATURED</span>
+            </div>
+            <h3 class="track-card__title">AI & Smart Systems</h3>
+            <p class="track-card__desc">
+              Leverage local LLMs, edge computer vision, automated workflow agents, and vernacular multimodal models to transform productivity, accessibility, and automation.
+            </p>
+            <div class="track-card__tags">
+              <span class="track-tag">Local LLMs</span>
+              <span class="track-tag">Edge AI</span>
+              <span class="track-tag">Computer Vision</span>
+              <span class="track-tag">Autonomous Agents</span>
+            </div>
+          </article>
+
+          <!-- Track 2 -->
+          <article class="track-card">
+            <div class="track-card__header">
+              <span class="track-card__badge" style="background-color: var(--mint-green); color: var(--ink);">TRACK 02 // PLANET</span>
+              <span class="sticker sticker--rotate-left" style="background-color: var(--lavender);">IMPACT</span>
+            </div>
+            <h3 class="track-card__title">Sustainability & CleanTech</h3>
+            <p class="track-card__desc">
+              Engineer technological defenses against climate volatility, energy waste, food loss, water scarcity, and inefficient municipal waste pipelines.
+            </p>
+            <div class="track-card__tags">
+              <span class="track-tag">AgriTech</span>
+              <span class="track-tag">Carbon Tracking</span>
+              <span class="track-tag">Solar & Microgrids</span>
+              <span class="track-tag">Circular Economy</span>
+            </div>
+          </article>
+
+          <!-- Track 3 -->
+          <article class="track-card">
+            <div class="track-card__header">
+              <span class="track-card__badge" style="background-color: var(--sunny-yellow); color: var(--ink);">TRACK 03 // COMMUNITY</span>
+              <span class="sticker sticker--rotate-right" style="background-color: var(--canvas);">COLLEGIATE</span>
+            </div>
+            <h3 class="track-card__title">Campus Life & Civic Tech</h3>
+            <p class="track-card__desc">
+              Directly improve collegiate experiences, student mental well-being, public transit navigation, municipal grievance resolution, or disaster preparedness.
+            </p>
+            <div class="track-card__tags">
+              <span class="track-tag">EdTech</span>
+              <span class="track-tag">Transit & Mobility</span>
+              <span class="track-tag">Civic Redressal</span>
+              <span class="track-tag">Campus Automation</span>
+            </div>
+          </article>
+
+          <!-- Track 4 -->
+          <article class="track-card">
+            <div class="track-card__header">
+              <span class="track-card__badge" style="background-color: var(--riso-coral); color: #fff;">TRACK 04 // WILDCARD</span>
+              <span class="sticker sticker--rotate-left" style="background-color: var(--sunny-yellow);">MOONSHOT</span>
+            </div>
+            <h3 class="track-card__title">Open Innovation & FinTech</h3>
+            <p class="track-card__desc">
+              Defy categorizations. Explore grassroots micro-finance, decentralized identity protocols, low-cost robotics, novel developer tools, or accessibility hardware.
+            </p>
+            <div class="track-card__tags">
+              <span class="track-tag">Micro-SaaS</span>
+              <span class="track-tag">Accessible Tech</span>
+              <span class="track-tag">Decentralized ID</span>
+              <span class="track-tag">Developer Tooling</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------------
+         4. SCHEDULE MATRIX (DAY 1 & DAY 2)
+         -------------------------------------------------------------------- -->
+    <section class="schedule-section" id="schedule" aria-label="Sprint Timetable">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-kicker">24-HOUR ITINERARY</span>
+          <h2 class="section-title">The Broadsheet Timetable</h2>
+          <p class="section-subtitle mx-auto">
+            From the opening gong to the grand auditorium pitch finale. Track every milestone across Day 1 and Day 2.
+          </p>
+        </div>
+
+        <!-- Schedule Navigation Controls -->
+        <div class="schedule-controls">
+          <!-- Tab Switcher (Mobile & Tablet) -->
+          <div class="schedule-tabs" role="tablist" aria-label="Schedule Day Switcher">
+            <button type="button" class="tab-btn is-active" role="tab" id="tab-day-1" aria-selected="true" aria-controls="schedule-day-1" data-schedule-tab="1">
+              DAY 01 (SAT, NOV 21)
+            </button>
+            <button type="button" class="tab-btn" role="tab" id="tab-day-2" aria-selected="false" aria-controls="schedule-day-2" data-schedule-tab="2">
+              DAY 02 (SUN, NOV 22)
+            </button>
+          </div>
+
+          <!-- Category Filter Pills -->
+          <div class="filter-pills-group" role="group" aria-label="Filter schedule items">
+            <button type="button" class="filter-pill is-active" data-schedule-filter="all" aria-pressed="true">All Events</button>
+            <button type="button" class="filter-pill" data-schedule-filter="hacking" aria-pressed="false">Hacking</button>
+            <button type="button" class="filter-pill" data-schedule-filter="mentor" aria-pressed="false">Mentoring</button>
+            <button type="button" class="filter-pill" data-schedule-filter="pitch" aria-pressed="false">Pitches</button>
+            <button type="button" class="filter-pill" data-schedule-filter="food" aria-pressed="false">Meals &amp; Breaks</button>
+          </div>
+        </div>
+
+        <!-- Timetable Broadsheet Columns -->
+        <div class="schedule-broadsheet-grid">
+          
+          <!-- Column Day 1 -->
+          <div class="schedule-column" id="schedule-day-1" role="tabpanel" aria-labelledby="tab-day-1">
+            <div class="column-banner">
+              <span class="column-banner__title">DAY 1: SPRINT KICK-OFF</span>
+              <span class="column-banner__date">SATURDAY, NOV 21</span>
+            </div>
+            <!-- Rendered dynamically by schedule.js -->
+          </div>
+
+          <!-- Column Day 2 -->
+          <div class="schedule-column" id="schedule-day-2" role="tabpanel" aria-labelledby="tab-day-2">
+            <div class="column-banner" style="background-color: var(--lavender);">
+              <span class="column-banner__title">DAY 2: CODE FREEZE & PITCHES</span>
+              <span class="column-banner__date">SUNDAY, NOV 22</span>
+            </div>
+            <!-- Rendered dynamically by schedule.js -->
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------------
+         5. INTERACTIVE IDEA SPINNER
+         -------------------------------------------------------------------- -->
+    <section class="spinner-section" id="spinner" aria-label="Interactive Idea Spinner">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-kicker">HACKATHON IDEA GENERATOR</span>
+          <h2 class="section-title">The Idea Spinner</h2>
+          <p class="section-subtitle mx-auto">
+            Need inspiration? Spin our slot-machine engine to combine unexpected Problem Domains, Technologies, and Engineering Constraints into a killer hackathon prompt.
+          </p>
+        </div>
+
+        <!-- The Slot Machine Chassis -->
+        <div class="spinner-chassis">
+          
+          <!-- 3 Reels Container -->
+          <div class="spinner-reels-container" role="region" aria-label="Idea Reels">
+            
+            <!-- Reel 1: Problem Domain -->
+            <div class="reel-box" id="reel-box-domain">
+              <div class="reel-header">
+                <span class="reel-label">01 // DOMAIN</span>
+                <button type="button" class="reel-lock-btn" id="lock-domain-btn" aria-label="Lock Domain Reel" aria-pressed="false">
+                  <span class="lock-icon" aria-hidden="true">🔓</span>
+                  <span class="lock-label">Lock</span>
+                </button>
+              </div>
+              <div class="reel-viewport" aria-hidden="true">
+                <div class="reel-items-strip" id="reel-domain-items"></div>
+              </div>
+            </div>
+
+            <!-- Reel 2: Technology -->
+            <div class="reel-box" id="reel-box-tech">
+              <div class="reel-header">
+                <span class="reel-label">02 // TECHNOLOGY</span>
+                <button type="button" class="reel-lock-btn" id="lock-tech-btn" aria-label="Lock Technology Reel" aria-pressed="false">
+                  <span class="lock-icon" aria-hidden="true">🔓</span>
+                  <span class="lock-label">Lock</span>
+                </button>
+              </div>
+              <div class="reel-viewport" aria-hidden="true">
+                <div class="reel-items-strip" id="reel-tech-items"></div>
+              </div>
+            </div>
+
+            <!-- Reel 3: Constraint -->
+            <div class="reel-box" id="reel-box-constraint">
+              <div class="reel-header">
+                <span class="reel-label">03 // CONSTRAINT</span>
+                <button type="button" class="reel-lock-btn" id="lock-constraint-btn" aria-label="Lock Constraint Reel" aria-pressed="false">
+                  <span class="lock-icon" aria-hidden="true">🔓</span>
+                  <span class="lock-label">Lock</span>
+                </button>
+              </div>
+              <div class="reel-viewport" aria-hidden="true">
+                <div class="reel-items-strip" id="reel-constraint-items"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Generated Prompt Output Banner -->
+          <div class="spinner-output-box" aria-live="polite">
+            <div class="output-kicker">GENERATED HACKATHON PROMPT</div>
+            <p class="output-sentence" id="spinner-output-sentence">
+              Build a solution for your chosen track.
+            </p>
+            <div class="sr-only" id="spinner-live-announcer" aria-live="assertive"></div>
+          </div>
+
+          <!-- Controls & Actions -->
+          <div class="spinner-controls">
+            <button type="button" class="btn btn--coral btn--lg" id="spinner-spin-btn">
+              <span>⚡ Spin Random Idea</span>
+            </button>
+
+            <div class="spinner-sub-actions">
+              <button type="button" class="btn btn--outline btn--sm" id="spinner-copy-btn" title="Copy prompt to clipboard">
+                <span>📋 Copy Prompt</span>
+              </button>
+              <button type="button" class="btn btn--outline btn--sm" id="spinner-share-btn" title="Share prompt on WhatsApp">
+                <span>💬 WhatsApp</span>
+              </button>
+              <button type="button" class="btn btn--yellow btn--sm" id="spinner-use-in-form-btn" title="Pre-fill registration form with this idea">
+                <span>✍️ Use in Registration</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------------
+         6. REGISTRATION FORM SECTION
+         -------------------------------------------------------------------- -->
+    <section class="register-section" id="register" aria-label="Register Your Team">
+      <div class="container">
+        
+        <div class="register-layout">
+          
+          <!-- Left Column: Guidelines & Benefits -->
+          <div class="register-info-panel">
+            <span class="section-kicker">FREE ENTRY · FOOD & SWAG INCLUDED</span>
+            <h2 class="section-title">Claim Your Hacker Spot</h2>
+            <p class="section-subtitle">
+              Registration is 100% free for all college students. Teams can have 1 to 4 members. Solo registrants will receive team-matching support during inauguration.
+            </p>
+
+            <div class="perks-card">
+              <h3 style="font-size: 1.15rem; margin-bottom: 0.5rem;">What Every Participant Gets:</h3>
+              <ul class="perks-list">
+                <li class="perk-item">
+                  <span class="perk-bullet">✓</span>
+                  <span>Official IEDC Hacker Kit, laminated physical ID badge, and stickers</span>
+                </li>
+                <li class="perk-item">
+                  <span class="perk-bullet">✓</span>
+                  <span>4 complimentary hot meals, unlimited filter coffee, tea, and midnight refreshments</span>
+                </li>
+                <li class="perk-item">
+                  <span class="perk-bullet">✓</span>
+                  <span>Direct 1:1 mentorship from startup founders and senior software engineers</span>
+                </li>
+                <li class="perk-item">
+                  <span class="perk-bullet">✓</span>
+                  <span>Verified Certificate of Participation and KTU Activity Points eligibility</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Existing Registration Notification (If already registered on this device) -->
+            <div class="existing-reg-banner is-hidden" id="existing-reg-banner"></div>
+          </div>
+
+          <!-- Right Column: Registration Form Card -->
+          <div class="form-card">
+            
+            <form id="registration-form" novalidate>
+              
+              <!-- Honeypot Bot Trap (Visually Hidden) -->
+              <div class="sr-only" aria-hidden="true">
+                <label for="bot-field-check">Do not fill this field:</label>
+                <input type="text" id="bot-field-check" name="bot-trap" tabindex="-1" autocomplete="off">
+              </div>
+
+              <div class="form-grid">
+                
+                <!-- Full Name -->
+                <div class="form-group form-group--full">
+                  <label for="form-fullName" class="form-label">
+                    <span>Full Name <span class="req-marker">*</span></span>
+                    <span class="font-mono text-xs">(Team Lead)</span>
+                  </label>
+                  <input type="text" id="form-fullName" name="fullName" class="form-input" placeholder="e.g. Ananya Nair" required autocomplete="name" aria-describedby="error-fullName">
+                  <div class="form-error is-hidden" id="error-fullName"></div>
+                </div>
+
+                <!-- Email & Phone (2 Cols) -->
+                <div class="form-grid form-grid--two-col form-group--full">
+                  <div class="form-group">
+                    <label for="form-email" class="form-label">Email Address <span class="req-marker">*</span></label>
+                    <input type="email" id="form-email" name="email" class="form-input" placeholder="name@college.edu" required autocomplete="email" inputmode="email" aria-describedby="error-email">
+                    <div class="form-error is-hidden" id="error-email"></div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="form-phone" class="form-label">Mobile Number <span class="req-marker">*</span></label>
+                    <input type="tel" id="form-phone" name="phone" class="form-input" placeholder="e.g. 9876543210" required autocomplete="tel" inputmode="tel" aria-describedby="error-phone">
+                    <div class="form-error is-hidden" id="error-phone"></div>
+                  </div>
+                </div>
+
+                <!-- College / Institution -->
+                <div class="form-group form-group--full">
+                  <label for="form-college" class="form-label">College / Institution Name <span class="req-marker">*</span></label>
+                  <input type="text" id="form-college" name="college" class="form-input" placeholder="e.g. College of Engineering Chengannur" required autocomplete="organization" aria-describedby="error-college">
+                  <div class="form-error is-hidden" id="error-college"></div>
+                </div>
+
+                <!-- Year / Department & Team Size (2 Cols) -->
+                <div class="form-grid form-grid--two-col form-group--full">
+                  <div class="form-group">
+                    <label for="form-yearDept" class="form-label">Year &amp; Department <span class="req-marker">*</span></label>
+                    <select id="form-yearDept" name="yearDept" class="form-select" required aria-describedby="error-yearDept">
+                      <option value="">Select your batch...</option>
+                      <option value="1st Year - CS/IT/AI">1st Year - Computer Science / IT / AI</option>
+                      <option value="2nd Year - CS/IT/AI">2nd Year - Computer Science / IT / AI</option>
+                      <option value="3rd Year - CS/IT/AI">3rd Year - Computer Science / IT / AI</option>
+                      <option value="4th Year - CS/IT/AI">4th Year - Computer Science / IT / AI</option>
+                      <option value="EC/EEE/Mech/Civil">EC / EEE / Mechanical / Civil</option>
+                      <option value="Postgraduate/MCA">Postgraduate / MCA / M.Tech</option>
+                      <option value="Other Institution">Other Degree / Diploma</option>
+                    </select>
+                    <div class="form-error is-hidden" id="error-yearDept"></div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="form-teamSize" class="form-label">Team Size <span class="req-marker">*</span></label>
+                    <select id="form-teamSize" name="teamSize" class="form-select" required aria-describedby="error-teamSize">
+                      <option value="1">1 Hacker (Solo Challenger)</option>
+                      <option value="2">2 Hackers</option>
+                      <option value="3">3 Hackers</option>
+                      <option value="4" selected>4 Hackers (Squad)</option>
+                    </select>
+                    <div class="form-error is-hidden" id="error-teamSize"></div>
+                  </div>
+                </div>
+
+                <!-- Team Name (Optional) & Track Preference (2 Cols) -->
+                <div class="form-grid form-grid--two-col form-group--full">
+                  <div class="form-group">
+                    <label for="form-teamName" class="form-label">Team Name <span class="font-mono text-xs">(Optional)</span></label>
+                    <input type="text" id="form-teamName" name="teamName" class="form-input" placeholder="e.g. ByteCraft Studio" aria-describedby="error-teamName">
+                    <div class="form-error is-hidden" id="error-teamName"></div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="form-track" class="form-label">Track Preference <span class="req-marker">*</span></label>
+                    <select id="form-track" name="track" class="form-select" required aria-describedby="error-track">
+                      <option value="">Select a sprint track...</option>
+                      <option value="ai-smart-systems">AI &amp; Smart Systems</option>
+                      <option value="climate-sustainability">Sustainability &amp; CleanTech</option>
+                      <option value="campus-civic">Campus Life &amp; Civic Tech</option>
+                      <option value="open-innovation">Open Innovation &amp; FinTech</option>
+                    </select>
+                    <div class="form-error is-hidden" id="error-track"></div>
+                  </div>
+                </div>
+
+                <!-- Idea / Project Concept (Optional with Live Counter) -->
+                <div class="form-group form-group--full">
+                  <label for="form-idea" class="form-label">
+                    <span>Initial Idea / Concept <span class="font-mono text-xs">(Optional)</span></span>
+                    <span class="char-counter" id="idea-char-count">0 / 280</span>
+                  </label>
+                  <textarea id="form-idea" name="idea" class="form-textarea" rows="3" maxlength="280" placeholder="Briefly describe your planned project or paste a prompt from the Idea Spinner above..." aria-describedby="error-idea"></textarea>
+                  <div class="form-error is-hidden" id="error-idea"></div>
+                </div>
+
+                <!-- Consent Checkbox -->
+                <div class="form-group form-group--full">
+                  <label class="checkbox-group" for="form-consent">
+                    <input type="checkbox" id="form-consent" name="consent" class="checkbox-input" required aria-describedby="error-consent">
+                    <span class="checkbox-label">
+                      I agree to the <strong>IEDC Code of Conduct</strong>, confirm that all submissions will be created during the 24-hour sprint, and acknowledge adherence to campus guidelines. <span class="req-marker">*</span>
+                    </span>
+                  </label>
+                  <div class="form-error is-hidden" id="error-consent"></div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-group form-group--full" style="margin-top: 1rem;">
+                  <button type="submit" class="btn btn--primary btn--full btn--lg">
+                    <span>Confirm Team Registration</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                      <path d="M5 12h14"></path>
+                      <path d="m12 5 7 7-7 7"></path>
+                    </svg>
+                  </button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------------
+         7. FAQ SECTION
+         -------------------------------------------------------------------- -->
+    <section class="faq-section" id="faq" aria-label="Frequently Asked Questions">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-kicker">NEED CLARITY?</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle mx-auto">
+            Everything you need to know about eligibility, logistics, food, and rules.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false" aria-controls="faq-ans-1">
+              <span>Who is eligible to participate in Idea Sprint 2026?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-ans-1" hidden>
+              Any student currently enrolled in an undergraduate or postgraduate program in any recognized college or university (Engineering, Arts, Science, Polytechnic) can participate. Cross-college teams are welcome!
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false" aria-controls="faq-ans-2">
+              <span>Is there any registration fee?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-ans-2" hidden>
+              No, registration is <strong>100% free</strong>! Food, refreshments, Wi-Fi, swag kit, and mentor access are fully sponsored by IEDC Bootcamp CEC.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false" aria-controls="faq-ans-3">
+              <span>Can I participate solo if I don't have a team yet?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-ans-3" hidden>
+              Yes! You can register as a solo challenger. During the inauguration on Day 1, our community organizers will host a dedicated team-matching mixer to pair you with compatible designers, developers, and domain thinkers.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false" aria-controls="faq-ans-4">
+              <span>Can we work on pre-built code or existing projects?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-ans-4" hidden>
+              No. To maintain fairness, all code, designs, and pitch slides must be created during the 24-hour sprint window. You may utilize public open-source libraries, APIs, and frameworks, provided they are attributed in your final repository.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question-btn" aria-expanded="false" aria-controls="faq-ans-5">
+              <span>What should we bring to the venue?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-ans-5" hidden>
+              Bring your college ID card, laptops, chargers, extension cords, any specialized hardware (e.g., Arduino/ESP32 if competing in hardware tracks), and personal toiletries. Resting spaces and power backups are provided on campus.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Brand & Mission Column -->
+        <div class="footer-brand-col">
+          <a href="#hero" class="footer-logo">
+            <span class="footer-logo-badge">⚡ IEDC CEC</span>
+            <span class="footer-logo-text">IDEA SPRINT '26</span>
+          </a>
+          <p class="footer-bio">
+            IEDC Bootcamp CEC is the premier student entrepreneurship and technology innovation cell at College of Engineering Chengannur, empowering students to build high-impact ventures.
+          </p>
+          <div class="footer-social-links" aria-label="Social media profiles">
+            <a href="https://instagram.com/iedc_cec" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Follow IEDC CEC on Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://linkedin.com/company/iedc-bootcamp-cec" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Connect with IEDC CEC on LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="https://github.com/iedc-cec" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Star IEDC CEC on GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://x.com/iedc_cec" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Follow IEDC CEC on X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Venue & Directions Column -->
+        <div>
+          <div class="footer-col-title">SPRINT VENUE</div>
+          <p style="font-size: 0.95rem; line-height: 1.5; margin-bottom: 0.75rem;">
+            <strong>College of Engineering Chengannur</strong><br>
+            Main Auditorium &amp; Innovation Pods<br>
+            Chengannur, Alappuzha Dist.<br>
+            Kerala - 689121
+          </p>
+          <a href="https://maps.google.com/?q=College+of+Engineering+Chengannur" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--outline" style="background: transparent; color: #fff; border-color: #52525B;">
+            <span>📍 Open in Google Maps</span>
+          </a>
+        </div>
+
+        <!-- Quick Contacts Column -->
+        <div>
+          <div class="footer-col-title">ORGANIZING DESK</div>
+          <ul class="footer-nav-list">
+            <li>
+              <a href="mailto:iedc@ceconline.edu" class="footer-nav-link">✉️ iedc@ceconline.edu</a>
+            </li>
+            <li>
+              <a href="tel:+919400012345" class="footer-nav-link">📞 +91 94000 12345</a>
+            </li>
+            <li>
+              <a href="https://wa.me/919400012345?text=Hello%20IEDC%20CEC%20Team!%20I%20have%20a%20query%20about%20Idea%20Sprint%202026" target="_blank" rel="noopener noreferrer" class="footer-nav-link">💬 WhatsApp Helpdesk</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 <strong>IEDC Bootcamp CEC</strong>. Built with precision for the student developer community.
+        </div>
+        <button type="button" class="back-to-top-btn" id="back-to-top-btn" aria-label="Scroll back to top of page">
+          <span>↑ Back to top</span>
+        </button>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       REGISTRATION SUCCESS MODAL & DIGITAL HACKER PASS
+       ====================================================================== -->
+  <div class="modal-backdrop" id="registration-success-modal" role="dialog" aria-modal="true" aria-labelledby="modal-success-title" aria-hidden="true">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close registration confirmation modal">×</button>
+      
+      <div class="text-center">
+        <span class="sticker sticker--rotate-left" style="background-color: var(--sunny-yellow);">CONFIRMATION CONFIRMED ⚡</span>
+        <h2 id="modal-success-title" style="font-size: 1.75rem; margin-top: 0.5rem; margin-bottom: 0.35rem;">You are Officially In!</h2>
+        <p style="font-size: 0.95rem; color: var(--ink-muted);">
+          Your spot at <strong>IEDC Idea Sprint 2026</strong> has been reserved. Present your ticket pass at the check-in desk on Nov 21.
+        </p>
+      </div>
+
+      <!-- Hacker Ticket Render Target -->
+      <div id="ticket-container"></div>
+
+      <!-- Modal Action Buttons -->
+      <div class="modal-actions">
+        <button type="button" class="btn btn--primary btn--sm" id="ticket-print-btn">
+          <span>🖨️ Print / Save Ticket</span>
+        </button>
+        <button type="button" class="btn btn--yellow btn--sm" id="ticket-calendar-btn">
+          <span>📅 Add to Calendar (.ics)</span>
+        </button>
+        <button type="button" class="btn btn--outline btn--sm" id="new-reg-btn">
+          <span>Register Another Team</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Confetti Canvas -->
+  <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+
+  <!-- ES Modules Entrypoint -->
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

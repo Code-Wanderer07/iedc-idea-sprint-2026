@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 56" fill="none" role="img" aria-label="IEDC Idea Sprint 2026 Logo">
+  <defs>
+    <filter id="hard-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="0" flood-color="#18181B" flood-opacity="1" />
+    </filter>
+  </defs>
+
+  <!-- Left Icon: Bolt inside neo-brutal badge -->
+  <g transform="translate(4, 4)">
+    <!-- Shadow block -->
+    <rect x="3" y="3" width="44" height="44" rx="8" fill="#18181B" />
+    <!-- Main badge -->
+    <rect x="0" y="0" width="44" height="44" rx="8" fill="#FDE047" stroke="#18181B" stroke-width="2.5" />
+    <!-- Dynamic bolt -->
+    <path d="M25 8L13 24H23L19 36L31 20H21L25 8Z" fill="#FF5A36" stroke="#18181B" stroke-width="2" stroke-linejoin="round" />
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(60, 16)">
+    <!-- Top badge line -->
+    <text x="0" y="8" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.1em" fill="#1D4ED8">
+      IEDC BOOTCAMP CEC
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="28" font-family="'Syne', sans-serif" font-size="20" font-weight="800" letter-spacing="-0.02em" fill="#18181B">
+      IDEA SPRINT <tspan fill="#FF5A36">'26</tspan>
+    </text>
+  </g>
+
+  <!-- Pill accent on right -->
+  <g transform="translate(202, 10)">
+    <rect x="0" y="0" width="30" height="16" rx="4" fill="#34D399" stroke="#18181B" stroke-width="1.5" />
+    <text x="15" y="11" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" text-anchor="middle" fill="#18181B">24H</text>
+  </g>
+</svg>

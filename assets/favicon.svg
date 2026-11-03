@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Hard shadow -->
+  <rect x="6" y="6" width="52" height="52" rx="12" fill="#18181B" />
+  <!-- Main box -->
+  <rect x="2" y="2" width="52" height="52" rx="12" fill="#FDE047" stroke="#18181B" stroke-width="4" />
+  <!-- Bolt icon -->
+  <path d="M30 10L16 30H28L22 46L38 24H26L30 10Z" fill="#FF5A36" stroke="#18181B" stroke-width="3" stroke-linejoin="round" />
+</svg>
