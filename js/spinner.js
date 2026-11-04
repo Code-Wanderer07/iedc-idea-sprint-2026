@@ -326,7 +326,7 @@ export class IdeaSpinner {
 
   shareOnWhatsApp() {
     const sentence = this.getCurrentIdeaSentence();
-    const text = encodeURIComponent(`💡 Here is our hackathon prompt for IEDC Idea Sprint 2026: "${sentence}" — Join the 24h ideathon at CEC! https://iedc-cec.github.io/iedc-idea-sprint-2026/`);
+    const text = encodeURIComponent(`💡 Here is our hackathon prompt for IEDC Idea Sprint 2026: "${sentence}" — Join the 24h ideathon at CEC! https://code-wanderer07.github.io/iedc-idea-sprint-2026/`);
     window.open(`https://api.whatsapp.com/send?text=${text}`, '_blank', 'noopener,noreferrer');
   }
 

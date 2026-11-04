@@ -6,7 +6,7 @@
 
 Official event microsite for **IEDC Idea Sprint 2026**, a 24-hour student ideathon hosted by **IEDC Bootcamp CEC** (College of Engineering Chengannur, Kerala).
 
-**Live URL:** [https://iedc-cec.github.io/iedc-idea-sprint-2026/](https://iedc-cec.github.io/iedc-idea-sprint-2026/)
+**Live URL:** [https://code-wanderer07.github.io/iedc-idea-sprint-2026/](https://code-wanderer07.github.io/iedc-idea-sprint-2026/)
 
 ---
 
